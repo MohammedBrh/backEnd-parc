@@ -35,15 +35,17 @@
     </dependency>
     <!-- Embedded file database: nothing to install on the target machine -->
     <!-- Source: https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
-    <dependency>
+   <!-- <dependency>
       <groupId>com.mysql</groupId>
       <artifactId>mysql-connector-j</artifactId>
       <version>26.7.0</version>
       <scope>compile</scope>
-    </dependency>
+    </dependency>-->
+    <!-- Source: https://mvnrepository.com/artifact/org.postgresql/postgresql -->
     <dependency>
-      <groupId>com.mysql</groupId>
-      <artifactId>mysql-connector-j</artifactId>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.7.13</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
